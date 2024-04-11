@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+__pycache__/
+
+venv/
+*.venv
+env/
+*.env
+
+.pytest_cache/
+models/
+
+*.keras
+*.joblib
+*.json
+*.csv
