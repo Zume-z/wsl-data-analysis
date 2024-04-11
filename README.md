@@ -5,8 +5,9 @@
 This project investigates the use of machine learning to predict the winners of surf competition heats. 
 Three machine learning models, Artificial Neural Networks (ANNs), Random Forests, and XGBoost, are employed to analyse historical competition data, surfer statistics, and wave conditions. 
 The project aims to determine the feasibility and effectiveness of machine learning in forecasting surf competition outcomes.
- 
 </div>
+
+**Important:** The dataset used in this project is private, mock data has been provided for testing. The full dataset is avaliable upon request.
 
 The project uses a dataset consisting of more than 19,000 Championship Tour heats conducted by the World Surfing League from 2012 to 2024. The dataset contains three primary sources of information:
 * Historical Competition Data: This segment encompasses details such as outcomes of heats, locations of competitions, among other relevant metrics.
