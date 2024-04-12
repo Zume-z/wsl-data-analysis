@@ -91,10 +91,9 @@ def clean_data(file_path, output_file_path):
 
     # Sort the columns
     df = df[sorted(df.columns, key=custom_sort_key)]
-    print(df.info(verbose=True))
 
     # Save the cleaned data
-    # save_to_csv(df, output_file_path)
+    save_to_csv(df, output_file_path)
 
 if __name__ == "__main__":
     input_file_path = '../data/raw/raw_2012_2024.csv'
