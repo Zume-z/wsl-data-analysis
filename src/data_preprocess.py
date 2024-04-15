@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from data_clean import drop_values, custom_sort_key, save_to_csv
-from utils.col_data import categorical_cols, ath_comp_cols, related_numeric_cols
+from src.data_clean import drop_values, custom_sort_key, save_to_csv
+from src.utils.col_data import categorical_cols, ath_comp_cols, related_numeric_cols
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, MinMaxScaler
 
